@@ -1,0 +1,146 @@
+*{
+	margin-top: 0px;
+	padding: 0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body{
+	background: #F2F2F2;
+	margin: auto;
+	max-width:1000px;
+}
+
+#contenedor {
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px;	
+}
+
+header {
+	background: #000000;
+	height: 100px;
+	color: blue;
+	text-align:center;
+}
+
+header h1 {
+	color: white;
+	font-size: 50px;
+	line-height: 100px;
+
+}
+
+nav {
+	background: #000000;
+	width: 1000px;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 30px 0px;
+
+}
+
+nav a {
+	color: #FBFBEF;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+	text-decoration: none;
+	padding: 35px;
+}
+
+.social{
+	position: fixed !important;
+	left:0;
+	top:200px;
+	position:relative; z-index:1;
+	
+}
+.social ul{
+	list-style: none;
+}
+.social ul li a{
+ 	display: inline-block;
+ 	color:#fff;
+ 	background: #000;
+ 	padding:10px 15px;
+ 	text-decoration: none;
+ 	-webkit-transition:all 500ms ease;
+ 	-o-transition:all 500ms ease;
+ 	transition:all 500ms ease;
+ }
+
+ .social ul li .icon-facebook{background:#3b5998;}
+ .social ul li .icon-twitter{background:#00abf0;}
+ .social ul li .icon-play{background:#c4302b;}
+ .social ul li .icon-email{background:#666666;}
+ .social ul li .icon-google-plus{background:#d95232;}
+ .social ul li .icon-instagram{background: #cc4873}
+
+
+ .social ul li a:hover{
+ 	padding: 10px 30px;
+ 	background:#0EDA7E;
+}
+#menu {
+	background-color: #000000
+}
+
+#menu ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#menu ul li {
+	display: inline-block;
+}
+#menu ul li a {
+	color: white;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+}
+#menu ul li a:hover{
+	background-color: #0EDA7E;
+}
+.slider{
+	width:95%
+	margin:auto;
+	overflow: hidden;
+}
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite alternate;
+	animation-timing-function: ease-in;
+	
+}
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+.slider img{
+	background:#0EDA7E;
+	width: 100%;
+}
+@keyframes cambio {
+	0% {margin-left:0;}
+	20%{margin-left:0;}
+
+	25%{margin-left:-100%;}
+	45%{margin-left:-100%;}
+	50%{margin-left:-200%;}
+	70%{margin-left:-200%;}
+	75%{margin-left:-300%;}
+	100%{margin-left:-300%}
+}
+body{
+	background:#;
+}
+
